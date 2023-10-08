@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    text-align: center;
+    padding-top: 121px;
+}
+.plane{
+    width: 204px;
+    height: 197px;
+    display: inline-block;
+    cursor: pointer;
+}
+.plane:hover{
+    box-shadow: inset 0px 0px 0px 2px whitesmoke;
+    box-sizing: border-box;
+}
+.bottom-left-plane{
+    background-color: red;
+    border-bottom-left-radius: 225px;
+    
+}
+.bottom-right-plane{
+    background-color: rgb(84, 24, 214);
+    border-bottom-right-radius: 225px;
+   
+}
+.top-right-plane{
+    background-color: rgb(45, 100, 27);
+    border-top-left-radius: 225px;
+   
+}
+.top-left-plane{
+    background-color: yellow;
+    border-top-right-radius: 225px;
+    
+}
+.active{
+    background-color:white;
+}
+.center{
+    
+    width: 183px;
+    height: 183px;
+
+    
+    border-radius: 50%;
+    top: 242px;
+    left: 372px;
+}
